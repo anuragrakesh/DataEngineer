@@ -11,4 +11,4 @@ COPY . /app
 RUN pip install pandas re
 
 # Set the command to run the code
-CMD ["python", "time_checker.py"]
+CMD ["python", "time_checker.ipynb"]
